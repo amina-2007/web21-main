@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,7 +12,16 @@
         <input type="text" placeholder="INPUT NAME" id="title">
         <textarea id="description" placeholder="DESCRIPTION"></textarea>
         <textarea id="ingredients" placeholder="INGREDIENTS"></textarea>
-
+<input type="time" id="time" min="00:00">
+<select id="difficulty">
+    <option value="easy"> EASY</option>
+    <option value="medium"> MEDIUM</option>
+    <option value="hard"> HARD</option>
+</select>
+<input type="text" id="image" placeholder="LINK">
+<button type="submit">ADD</button>
     </form>
+    <div id="recipe-list"></div>
+    <script src="script.js"></script>
 </body>
 </html>
