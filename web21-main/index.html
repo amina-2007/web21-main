@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app" align="center">
+        <header>
+            <h1>Квиз 21 группы</h1>
+            <div class="meta">
+                <span id="progressTest">Вопрос 1/1</span>
+            </div>
+        </header>
+
+        <section class="card" id="quizCard">
+            <div class="question">
+                <h3 id="questionText"></h3>
+                <form class="options" id="optionsForm">
+                </form>
+            </div>
+
+            <div class="nav">
+                <button id="nextButton" type="button">Вперед</button>
+                <button id="backButton" type="button">Назад</button>
+            </div>
+
+        </section>
+
+        <section class="card-spawn hidden" id="resultCard">
+            <h2>Результат</h2>
+            <p id="resultText"></p>
+            <div id="reviewList"></div>
+            <div class="nav">
+                <button id="restartButton" type="button">Начать сначала</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(55, 45, 97); 
+}
+
+.app{
+    background-color: aliceblue;
+    max-width: 700px; 
+    margin: 30 auto;
+    padding: 0 16px;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /*na 1 linii*/
+    margin-bottom: 14px;}
+
+.options{
+        display: flex;
+        flex-direction:column ;
+        gap: 10px;
+    }
+
+    .nav{
+        margin-top: 14px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hidden
+    {
+        display: none;
+    }
+
+    .review-item
+    {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .ok{
+        color:aqua;
+
+    }
+    .bad{color: blueviolet;}
